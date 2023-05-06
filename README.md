@@ -19,7 +19,10 @@ Jenkins Configuration as Code provides the ability to define this whole configur
    - Run jenkins docker-compose to have its docker container up and running
    
 ----------
-#### One of the most important files that we have in this project is << casc.yml >> that is reponsible to define the whole jenkins configuration as a simple, human-friendly, plain text yaml syntax
+
+### casc.yml configuration file
+
+One of the most important files that we have in this project is << casc.yml >> that is reponsible to define the whole jenkins configuration as a simple, human-friendly, plain text yaml syntax
 
 #### what we did in casc.yml:
  - setting up jenkins basic configuration like system_message , num executors , jenkins url
