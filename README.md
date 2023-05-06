@@ -20,12 +20,6 @@ Jenkins Configuration as Code provides the ability to define this whole configur
    
 ----------
 #### One of the most important files that we have in this project is << casc.yml >> that is reponsible to define the whole jenkins configuration as a simple, human-friendly, plain text yaml syntax
-#### For this project , We defined multiple elements in casc.yml to show the power of JCasC
-#### The root elements that we used:
-- jenkins: basic jenkins configuration
-- credentials: credentials of installed plugins
-- unclassified: Setting up installed plugins
-- tool: the location of installed tools like jdk, git, maven ....
 
 #### what we did in casc.yml:
  - setting up jenkins basic configuration like system_message , num executors , jenkins url
