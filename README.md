@@ -12,9 +12,9 @@ Jenkins Configuration as Code provides the ability to define this whole configur
 
 ### What do we want to do ?
 
-- we are going to Provision a jenkins server on virtualbox platform with Terraform (you can also use other platforms like aws):
+- Provisioning a jenkins server on virtualbox platform with Terraform (you can also use other platforms like aws):
    - we used ubuntu vagrant box
-- we have an ansible directory that is responsible to do some tasks:
+- Running ansible playbook that is responsible to do some tasks:
    - Install Docker and Docker-compose on jenkins server
    - Run jenkins docker-compose to have its docker container up and running
    
