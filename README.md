@@ -14,7 +14,7 @@ Jenkins Configuration as Code provides the ability to define this whole configur
 
 - Provisioning a jenkins server on virtualbox platform with Terraform (you can also use other platforms like aws):
    - we used ubuntu vagrant box
-- Running ansible playbook that is responsible to do some tasks:
+- Running ansible playbook with terraform provisioner that is responsible to do some tasks:
    - Install Docker and Docker-compose on jenkins server
    - Run jenkins docker-compose to have its docker container up and running
    
