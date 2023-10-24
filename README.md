@@ -24,7 +24,7 @@ Jenkins Configuration as Code provides the ability to define this whole configur
 
 One of the most important files that we have in this project is << casc.yml >> that is reponsible to define the whole jenkins configuration as a simple, human-friendly, plain text yaml syntax
 
-#### what we did in casc.yml:
+#### What we did in casc.yml:
  - setting up jenkins basic configuration like system_message , num executors , jenkins url
  - Creating a local user : admin
  - Creating two credentials with different types (string , usernamePassword) for SonarQube and Jira plugins
