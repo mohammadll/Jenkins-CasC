@@ -8,7 +8,7 @@ Setting up Jenkins is a complex process, as both Jenkins and its plugins require
 Jenkins Configuration as Code provides the ability to define this whole configuration as a simple, human-friendly, plain text yaml syntax. Without any manual steps, this configuration can be validated and applied to a Jenkins controller in a fully reproducible way. With JCasC, setting up a new Jenkins controller will become a no-brainer event.
 
 
-----------
+-----------
 
 ### What do we want to do ?
 
